@@ -1,0 +1,21 @@
+{
+  "name": "khasanboy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Server/server.ts",
+  "scripts": {
+    "dev": "nodemon ./Server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.15",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

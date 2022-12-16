@@ -1,0 +1,23 @@
+POST http://localhost:8080/HomePage/register HTTP/1.1
+Content-Type:application/json
+
+{
+    "name":"Diybk",
+    "surname":"Ravshanbekov",
+    "age":12,
+    "hasMarried":false
+}
+
+###
+GET http://localhost:8080/HomePage HTTP/1.1
+
+###
+DELETE http://localhost:8080/HomePage/remove/id:1 HTTP/1.1
+###
+PUT  http://localhost:8080/HomePage/Edit/id:3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Xasanboy",
+    "surname" : "Hello World"
+}
